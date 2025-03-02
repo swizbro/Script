@@ -1,51 +1,78 @@
-
-
-
 -- Criando a GUI do Menu
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "DESTRUIR MINI CITY HAHA"
+screenGui.Name = "Feito por Swiz"
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0, 200, 0, 150)
-frame.Position = UDim2.new(0.5, -100, 0.5, -75)
+frame.Size = UDim2.new(0, 400, 0, 300)
+frame.Position = UDim2.new(0.5, -200, 0.5, -150)
 frame.BackgroundColor3 = Color3.new(0, 0, 0)
 frame.BackgroundTransparency = 0.5
+frame.Draggable = true
+frame.Active = true
 frame.Parent = screenGui
 
+local titleLabel = Instance.new("TextLabel")
+titleLabel.Size = UDim2.new(1, 0, 0.1, 0)
+titleLabel.Position = UDim2.new(0, 0, 0, 0)
+titleLabel.Text = "DESTRUIR MINI CITY HAHA - Feito por Swiz"
+titleLabel.TextColor3 = Color3.new(1, 1, 1)
+titleLabel.BackgroundTransparency = 1
+titleLabel.TextScaled = true
+titleLabel.Parent = frame
+
 local flyButton = Instance.new("TextButton")
-flyButton.Size = UDim2.new(1, 0, 0.33, 0)
-flyButton.Position = UDim2.new(0, 0, 0, 0)
+flyButton.Size = UDim2.new(1, 0, 0.3, 0)
+flyButton.Position = UDim2.new(0, 0, 0.1, 0)
 flyButton.Text = "Ativar Voo"
+flyButton.TextScaled = true
 flyButton.Parent = frame
 
 local espButton = Instance.new("TextButton")
-espButton.Size = UDim2.new(1, 0, 0.33, 0)
-espButton.Position = UDim2.new(0, 0, 0.33, 0)
+espButton.Size = UDim2.new(1, 0, 0.3, 0)
+espButton.Position = UDim2.new(0, 0, 0.4, 0)
 espButton.Text = "Ativar ESP"
+espButton.TextScaled = true
 espButton.Parent = frame
 
 local noclipButton = Instance.new("TextButton")
-noclipButton.Size = UDim2.new(1, 0, 0.33, 0)
-noclipButton.Position = UDim2.new(0, 0, 0.66, 0)
+noclipButton.Size = UDim2.new(1, 0, 0.3, 0)
+noclipButton.Position = UDim2.new(0, 0, 0.7, 0)
 noclipButton.Text = "Ativar Noclip"
+noclipButton.TextScaled = true
 noclipButton.Parent = frame
 
 -- Script de Voo
 local flySpeed = 50
 local flyEnabled = false
+local flyingConnection
 
 local function startFlying()
-    local humanoidRootPart = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-    humanoidRootPart.BodyVelocity = Instance.new("BodyVelocity")
-    humanoidRootPart.BodyVelocity.Velocity = Vector3.new(0, flySpeed, 0)
-    humanoidRootPart.BodyVelocity.Parent = humanoidRootPart
+    local character = game.Players.LocalPlayer.Character
+    if character then
+        local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+        local bodyVelocity = Instance.new("BodyVelocity")
+        bodyVelocity.Velocity = Vector3.new(0, flySpeed, 0)
+        bodyVelocity.Parent = humanoidRootPart
+
+        flyingConnection = game:GetService("RunService").RenderStepped:Connect(function()
+            humanoidRootPart.Velocity = humanoidRootPart.CFrame.lookVector * flySpeed
+        end)
+    end
 end
 
 local function stopFlying()
-    local humanoidRootPart = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-    if humanoidRootPart:FindFirstChild("BodyVelocity") then
-        humanoidRootPart.BodyVelocity:Destroy()
+    local character = game.Players.LocalPlayer.Character
+    if character then
+        local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+        if humanoidRootPart:FindFirstChild("BodyVelocity") then
+            humanoidRootPart.BodyVelocity:Destroy()
+        end
+
+        if flyingConnection then
+            flyingConnection:Disconnect()
+            flyingConnection = nil
+        end
     end
 end
 
@@ -157,4 +184,3 @@ noclipButton.MouseButton1Click:Connect(function()
         stopNoclip()
     end
 end)
-
