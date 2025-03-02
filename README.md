@@ -1,3 +1,161 @@
-"--swiz no enemies,I LOVE YOU
-print("racionais lve")
-return(function(...)local D,F,c=table,string,bit local Y,a,e,_,l,d,b,K,X,H,W=F.byte,F.char,F.sub,D.concat,D.insert,math.ldexp,getfenv and getfenv()or _ENV,setmetatable,select,unpack or D.unpack,tonumber;local Z=(function(Z)local F,c,E,W,Y,G,H=1,function(E)local F=""for W=1,#E,1 do F=F..a(Y(E,W)-(19))end return W(F,36)end,"","",{},256,{}for F=0,G-1 do H[F]=a(F)end;local function l()local E=c(e(Z,F,F))F=F+1;local W=c(e(Z,F,F+E-1))F=F+E;return W end;E=a(l())Y[1]=E;while F<#Z do local F=l()if H[F]then W=H[F]else W=E..e(E,1,1)end;H[G]=E..e(W,1,1)Y[#Y+1],E,G=W,W,G+1 end;return D.concat(Y)end)("EHcEJGEHcEH^EJHEHeEI_EJHEJUEHcEEjEHcEHbEJVEHcEHWEJZEJ[EIlEJ^EJVEEKEJHEJaEJaEIDEJKEJJEJGEHHEGfEGiEG[EGbEHeEHaEJHEHTEHHEHUEG^EG]EGdEHeEHdEJHEGiEG^EHHEHeEH_EKWEHCEHHEKDEK\\EJGEGhEG_EGfEHUEKUEKGEHGEGiEKEEJHEGhEG\\EG]EGhEGfEKZEKFEJGEKKEHTEGbEHUEKZEKaEHcEGZELFEG_EHeEJiEHcEG[EGcEGbEHDEHLEHeEH`EJHEGdEGbEHHEGeEGbEG]EHJEK[EJHEGEEFfEFaEGUEHeEHWEKGELgEGZELgELFEJlEKCEKkEJGELKEKCEGhELGEJHEHGEG]EHLEGfEGhEG`EHeEH[EJHEHHELCEHGEGZEGiELLEHeEGXEEcEJGEFfEFiEFhEFfEFfEFlEFfEFeEFcEUJEFiEFfEFgEGeEUTEUVEUKEFgEFgEUYEUJEFgEGfEUYEGiEUYEUVEU`EUYEFeEUYEF_EUWEVCEFeEUmEUiEFgEVFEGbEVCEFgEGdEUTEF_EFgEVJEFgEUkEFgEGgEUlEV]EU`EFgEGGEUYEGhEFgEG`EVCEFfEFbEVUEFgEUfEFgEUVEFeEG_EUaEUeEVfEUIEVEEUYEGKEUgEUYEU`EFeEGDEUJEUkEFdEUXEFgEULEVlEUYEGTEV^EV\\EUcEVKEG^EViEUIEFgEW[EVZEUhEFlEVjEFfEFdEWWEFdEGFEUYEV\\EUGEUYEGaEViEWeEVlEVdEUeEFgEGHEUYEW[EGgEFgEGKEFgEGaEXWEW\\EUYEFdEUTEGhEXCEGIEXCEGCEXCETDEFeEG[EXCEULEFfEVmEVVEXZEV[EXCEW`EWVEXCEGLEU\\EVWEXbEXZEYUEF_EXmEFcEVLEFgEGUEXbEU`EFiEY[EUmEGLEUIEGLEYHEUGEU[EV[EFgEXeEGLEVhEU^EG`EZDEUTEWYEW[EW[EUdEF_EY_EVeEWhEWEEGLEWKEFhEUfEFiEWKEZFEYlEUYEVhEFiEU[EZ\\EFgEXiEZfEVfEGJEViEYWEW^EVYEFgEGZEWJEXHEX[EVbEWEEZDEX^E[KEXcEF_EXeEFiEVaEFdEWUEUmEGKEYWEGKEGUE[JEGKEXZEFdEZmEUUEUYE[aEUhEU_EGcEV`EFgEYWEZ\\EUGE\\FEYJE[HEGLE[HE[YEXdEXlEFfEF_EVTEF_EG^EVjEXbE[cEVHEUYEULEF_EVaEUUEUZEV^E\\_EGiEFgEWgEUhEVhEGUEVhE\\GEFcEYiEXgEFcEWDEFcEVTEGUEV\\E]TEUGETDEZ`EVfEV\\E\\LEFfEX_E]]EUXEGKEUVEGKEVZE[]EU[EF_EUfEFeE\\_EXGEFdEVmEXLEVYEW_EXCEUmEWIEGUEYWEGUE[cEXJEFfEYTEVVEY_EY_E^LEXaEWlEGdE\\EEUJEXLEFfEVTEFfEXaEW[EVFEW`E^cE]]EUdEFeEWeE^hEVGEUXE^mE[]EZYEUdE^DEGKEYDEXJEFgEWDEGTEXeEGUEWKEWmEGKEXiEGKEW`EZbEZ^E[KEGLEXZEGHEUIEGUEUmEGHEVhEFeEU[EFdEWDE\\`EZJE[TE^UEUkE[iEF_EWYEUkEGHEUdEU^EW`EVGEXgEU_EVKEYDEFeEVJEGKEVhEYKEFeEGIEVWEUTEVaEUcE^^EGKEWKEF_EXZEGKETDEUKE^UEVFEUfEGGE`_E^LEULEGUETDEGUEUdE]KEFfEFhEXiEGUEXGEGGEXiEaVEFbEXgEGLEXgE[[EFfEGGEXgEGGEGcEaWEZaEa`EFbE`YEGKEWeEF_E[hE`bEXLEGGEWYETDEGGEWKE^TEXiEWIEGLEW]E`iEUhEUmE^mEUVEGTEUdEGTEXgEGJE[DEXmE[HEGHEUXEGHE[HEFgEafEV_EUmEGGEUXE]iEFfEGJEXiEGHEVaE^KE^^EbkEWFEWmEGLE`mEULEagEadEahEFhEVJEGGEVTEYhEYGEGFEcUE_bEFfEGUEU[E[iE[`EUYEcdEVeE]lE^_E\\jEXbEUYE[HEGTEVeEGTEXLEbXEFfEGHEULEXZEUTEXGE[iEGTEUfEGTEVhEGHEdYEULEFeEWbE\\_E`XEGfE^DEV_EYmEW[E]kEUfEGJEb^EbfEV_EWbEXeEGIE[cEGIEXZEGTEWKEVEEX`EcGEVTEFgEXGEWcEFiEZGE^lEWeEGTEYDEGIEXkEGDEUIEFfE_mE_YEbTE\\\\EZeEGGEFgEalE`XEUkEFiEY_EW]EUYE[fEXeEFeEahEGHEUfEFdEU[EGIEVTEFdEVJEFeE^gEUXEGGE[_E[DEWXEWbEWYEXeEGJEWHE^XE]]E`_E_HEUmEGJEVJEGJEcaE]XEGTE[VEW\\EXWEbTEaCEFbEYfEUJEWWEWmEWIEUaEg\\EdTEZGEUJEaCEFfEWWE[iEGCEWeEGIETDEGCE_KEULEGCE[HEcdEUJEglEbDEVeEaCEGCEVeEGFEUmEGFE[fEUJEGFEW`EgfEFfEhZE[gEFfEGFEXiEhUEUTEXeEGFEfTEXGEGDEYDEcbEGFEUXEGFEZGEULEGLE`[EUmEFdEYWEhZEhdEh^EWWEGCEXLEXGEh^EXZEGFE`GEUVEgmEFfEGIEXgEGCEWDEGFEVTEGEEUIEibE\\XEWUEUVEhXEh[E[HEGEEVaEGFEdcEhmEUYEVeEGCEf^EUVEiGEdVE`[EiiEXeEY]EFfEGEEXGEGEEXgE[iEXeE]]EdTEi[E[HEj_Ei\\EGFEWeEh\\EXgEGEEiHEilE[cEGFE[cEGEEUVEGEEUmEGEEXiEaCEFeEXGEGCEWKEGgEYWEjLEiJEkWE\\XETDEGgEW`EiJEj_Eh[Eh^EkFEhCEWDE`mEiDEFfEGgEegEYFETDEGEEU`EGgEUmEchEh^EUfEgbEUdEGEEcYEYVEFfEGfEULEGEE^bE\\bETDEGfEYiEUIEi\\EjXEGgElXEgaEXGEifEFiEkDEgaEXeEGEEXkEGgEXgEhaEF_EVJEk[Ei\\EhZEGEEW`EGgEljEZmEGgE_KEhTEUVEGfEU[EGEEWWEGgEVhEijEkLEdZEjYEkXEYWEFfEYWEdhEjYEVJEmhEkaEWKEmkEZmEGEEZgEWHE]kEZmEGfEjmEf\\Ej]EXGEmVElVEYDEm\\EFfE\\iEkiEXZEGfEXkEGfEUVEGiEVhFDC`EXCEUJEGiEjmEXeEGiEZaEVhEGiEiXEVTEjfElVE[cEmaEGfEZmEifEcgEhEFDCZEUIEGhEUXEi\\EGTE^LEXZEk[EmaEGgEWDEGfEahEGgEWKEGhEmUEVeEGEEV\\EGgEUkEGiEahEGhFDCUEYWEGFEZmEGiEhHEULEGgEUfEGhEYFEYFEVaFDDeEFfEGhEj_EYFFDEIEUJEYDEGhEaIE
+
+
+
+-- Criando a GUI do Menu
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "DESTRUIR MINI CITY HAHA"
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0, 200, 0, 150)
+frame.Position = UDim2.new(0.5, -100, 0.5, -75)
+frame.BackgroundColor3 = Color3.new(0, 0, 0)
+frame.BackgroundTransparency = 0.5
+frame.Parent = screenGui
+
+local flyButton = Instance.new("TextButton")
+flyButton.Size = UDim2.new(1, 0, 0.33, 0)
+flyButton.Position = UDim2.new(0, 0, 0, 0)
+flyButton.Text = "Ativar Voo"
+flyButton.Parent = frame
+
+local espButton = Instance.new("TextButton")
+espButton.Size = UDim2.new(1, 0, 0.33, 0)
+espButton.Position = UDim2.new(0, 0, 0.33, 0)
+espButton.Text = "Ativar ESP"
+espButton.Parent = frame
+
+local noclipButton = Instance.new("TextButton")
+noclipButton.Size = UDim2.new(1, 0, 0.33, 0)
+noclipButton.Position = UDim2.new(0, 0, 0.66, 0)
+noclipButton.Text = "Ativar Noclip"
+noclipButton.Parent = frame
+
+-- Script de Voo
+local flySpeed = 50
+local flyEnabled = false
+
+local function startFlying()
+    local humanoidRootPart = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+    humanoidRootPart.BodyVelocity = Instance.new("BodyVelocity")
+    humanoidRootPart.BodyVelocity.Velocity = Vector3.new(0, flySpeed, 0)
+    humanoidRootPart.BodyVelocity.Parent = humanoidRootPart
+end
+
+local function stopFlying()
+    local humanoidRootPart = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+    if humanoidRootPart:FindFirstChild("BodyVelocity") then
+        humanoidRootPart.BodyVelocity:Destroy()
+    end
+end
+
+flyButton.MouseButton1Click:Connect(function()
+    flyEnabled = not flyEnabled
+    if flyEnabled then
+        flyButton.Text = "Desativar Voo"
+        startFlying()
+    else
+        flyButton.Text = "Ativar Voo"
+        stopFlying()
+    end
+end)
+
+-- Script de ESP
+local espEnabled = false
+
+local function createESP(player)
+    if player.Character then
+        local highlight = Instance.new("BoxHandleAdornment")
+        highlight.Size = player.Character.HumanoidRootPart.Size
+        highlight.Adornee = player.Character.HumanoidRootPart
+        highlight.Color3 = Color3.new(0, 1, 0) -- Cor da caixa (verde)
+        highlight.Transparency = 0.5
+        highlight.AlwaysOnTop = true
+        highlight.Parent = player.Character.HumanoidRootPart
+
+        -- Criar um BillboardGui para mostrar a distância
+        local billboardGui = Instance.new("BillboardGui")
+        billboardGui.Adornee = player.Character.HumanoidRootPart
+        billboardGui.Size = UDim2.new(0, 100, 0, 50)
+        billboardGui.StudsOffset = Vector3.new(0, 3, 0)
+        billboardGui.AlwaysOnTop = true
+        billboardGui.Parent = player.Character.HumanoidRootPart
+
+        local textLabel = Instance.new("TextLabel")
+        textLabel.Size = UDim2.new(1, 0, 1, 0)
+        textLabel.BackgroundTransparency = 1
+        textLabel.TextColor3 = Color3.new(1, 0, 0) -- Cor do texto (vermelho)
+        textLabel.TextScaled = true
+        textLabel.Parent = billboardGui
+
+        -- Função para atualizar a distância
+        local function updateDistance()
+            local distance = (player.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+            textLabel.Text = string.format("%.1f studs", distance)
+        end
+
+        -- Atualizar a distância a cada quadro
+        game:GetService("RunService").RenderStepped:Connect(updateDistance)
+    end
+end
+
+local function enableESP()
+    for _, player in pairs(game.Players:GetPlayers()) do
+        createESP(player)
+    end
+
+    game.Players.PlayerAdded:Connect(function(player)
+        player.CharacterAdded:Connect(function()
+            createESP(player)
+        end)
+    end)
+end
+
+espButton.MouseButton1Click:Connect(function()
+    espEnabled = not espEnabled
+    if espEnabled then
+        espButton.Text = "Desativar ESP"
+        enableESP()
+    else
+        espButton.Text = "Ativar ESP"
+        -- Para desativar ESP, você precisaria remover os adornos e labels adicionados, isso pode ser feito com um script adicional.
+    end
+end)
+
+-- Script de Noclip (atravessar paredes)
+local noclipEnabled = false
+
+local function startNoclip()
+    local character = game.Players.LocalPlayer.Character
+    if character then
+        for _, part in pairs(character:GetDescendants()) do
+            if part:IsA("BasePart") and part.CanCollide then
+                part.CanCollide = false
+            end
+        end
+    end
+end
+
+local function stopNoclip()
+    local character = game.Players.LocalPlayer.Character
+    if character then
+        for _, part in pairs(character:GetDescendants()) do
+            if part:IsA("BasePart") then
+                part.CanCollide = true
+            end
+        end
+    end
+end
+
+noclipButton.MouseButton1Click:Connect(function()
+    noclipEnabled = not noclipEnabled
+    if noclipEnabled then
+        noclipButton.Text = "Desativar Noclip"
+        startNoclip()
+    else
+        noclipButton.Text = "Ativar Noclip"
+        stopNoclip()
+    end
+end)
+```
+
