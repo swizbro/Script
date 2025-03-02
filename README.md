@@ -157,5 +157,4 @@ noclipButton.MouseButton1Click:Connect(function()
         stopNoclip()
     end
 end)
-```
 
